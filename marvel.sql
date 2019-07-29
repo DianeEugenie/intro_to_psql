@@ -75,8 +75,9 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 -- INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2019, '24:00');
 
 -- The cinema would like to make the Iron Man movies a triple billing. Find out the show time of "Iron Man 2" and set the show time of "Iron Man 3" to start two hours later.
-SELECT show_time FROM movies WHERE title = 'Iron Man 2'; --18:45
-UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
+-- SELECT show_time FROM movies WHERE title = 'Iron Man 2'; --18:45
+-- UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
 
 
 -- Research how to delete multiple entries from your table in a single command.
+-- DELETE FROM films WHERE kind <> 'Musical'; - delete all but the musicals
