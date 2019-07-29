@@ -80,4 +80,6 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 
 
 -- Research how to delete multiple entries from your table in a single command.
--- DELETE FROM films WHERE kind <> 'Musical'; - delete all but the musicals
+-- DELETE FROM movies WHERE year <> 2017; -- delete all but the movies made in 2017
+-- DELETE FROM people WHERE id IN (1, 2, 3); -- delete the rows with the id 1, 2 and 3 from people
+SELECT * FROM people;
